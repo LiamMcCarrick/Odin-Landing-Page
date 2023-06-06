@@ -100,6 +100,10 @@ img {
     padding: 20px;
 }
 
+.sec-two {
+    margin-bottom: 50px;
+}
+
 .sec-two h2 {
     text-align: center;
     font-size: 36px;
@@ -125,6 +129,30 @@ img {
 
 .sec-two li {
     width: 150px;
+}
+
+/*Quote Section*/
+
+.sec-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.sec-three .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sec-three .author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    align-self: self-end;
 }
 
 /*Footer*/
