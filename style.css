@@ -11,6 +11,8 @@
     height: 100vh;
 }
 
+/*Navbar*/
+
 .navbar {
     background-color: #1F2937;
     display: flex;
@@ -35,4 +37,54 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/*Hero Section*/
+
+.sec-one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px 50px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.sec-one-text h1, .sec-one-text p {
+    margin-bottom: 10px;
+}
+
+.hero-media {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    min-width: 500px;
+    min-height: 250px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    color: #E5E7EB;
+}
+
+.sec-one h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.sec-one p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
