@@ -11,6 +11,10 @@
     height: 100vh;
 }
 
+.main-content {
+    flex-grow: 1;
+}
+
 /*Navbar*/
 
 .navbar {
@@ -109,7 +113,6 @@ img {
     list-style: none;
     gap: 20px;
     flex-wrap: wrap;
-
 }
 
 .info-img {
@@ -122,4 +125,16 @@ img {
 
 .sec-two li {
     width: 150px;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 25px 50px;
 }
